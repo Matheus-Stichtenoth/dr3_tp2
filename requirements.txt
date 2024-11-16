@@ -1,0 +1,11 @@
+uvicorn
+fastapi
+pydantic
+langchain==0.3.7
+langchain_community
+langchain_openai
+langchain_google_genai
+httpie
+transformers
+torch
+streamlit
