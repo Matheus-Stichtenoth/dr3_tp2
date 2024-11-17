@@ -16,6 +16,7 @@ Parte 1:
 Parte 2:
 
 Exercício 1:
+
     <br/> 1° - Executar o arquivo 'question.py' do diretório 'models'
     <br/> 2° - Executar o arquivo 'question.py' do diretório 'routers'
     <br/> 3° - Executar o arquivo 'main_2_1.py' do diretório 'parte2_1'
@@ -28,7 +29,8 @@ Exercício 1:
     Isso irá alterar a porta, e não deverá mais gerar o erro. Como fizemos essa alteração, deveremos mudar também a requisição POST: <br/>
         http POST http://127.0.0.1:8001/chat/ask/ question="Olá" <br/>
 
-\n Exercício 2:
+Exercício 2:
+
     1° - Executar o arquivo 'translator.py' do diretório 'models' <br/>
     2° - Executar o arquivo 'translator_openai.py' do diretório 'routers' <br/>
     3° - Executar o arquivo 'main_2_2.py' do diretório 'parte2_2' <br/>
