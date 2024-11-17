@@ -7,8 +7,10 @@ from langchain_community.llms import HuggingFaceHub
 from dotenv import load_dotenv
 import os
 
+load_dotenv()
+
 api_key_hugging_face = os.environ['HUGGINGFACE_HUB_API_TOKEN']
-model_translator = 'Helsinki-NLP/opus-mt-en-de.'
+model_translator = 'Helsinki-NLP/opus-mt-en-de'
 
 router = APIRouter()
 
@@ -27,4 +29,3 @@ def translator_to_germany(message:str):
 async def chat(body: TranslatorToGermany):
     response = translator_to_germany(body.message)
     return {'assistant': response}
-
