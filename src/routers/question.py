@@ -24,7 +24,7 @@ fake_llm = FixedResponseLLM()
 # Endpoint para responder perguntas
 @router.post("/ask/")
 async def ask_question(question: QuestionFixed):
-    user_input = question.strip()
+    user_input = question.question.strip()
     # Obtém a resposta do modelo customizado
     response = fake_llm.predict(user_input)
     
