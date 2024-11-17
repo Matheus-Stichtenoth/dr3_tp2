@@ -1,24 +1,24 @@
 O PRIMEIRO PASSO É FAZER A INSTALAÇÃO DO REQUIREMENTS.TXT
 
-\n Parte 1:
+Parte 1:
 
-\n Exercicio 1:
+    Exercicio 1:
 
-\n Exercicio 2:
-
-
+    Exercicio 2:
 
 
 
 
 
 
-\n Parte 2:
 
-\n Exercício 1:
-    1° - Executar o arquivo 'question.py' do diretório 'models' \n
-    2° - Executar o arquivo 'question.py' do diretório 'routers' \n
-    3° - Executar o arquivo 'main_2_1.py' do diretório 'parte2_1' \n
+
+Parte 2:
+
+Exercício 1:
+    1° - Executar o arquivo 'question.py' do diretório 'models' <br/>
+    2° - Executar o arquivo 'question.py' do diretório 'routers' <br/>
+    3° - Executar o arquivo 'main_2_1.py' do diretório 'parte2_1' <br/>
     Após realizar esses 3 passos, deverá rodar o seguinte código no terminal, dentro do diretório tp2: \n
         uvicorn src.parte2_1.main_2_1:app --reload \n
     O servidor irá iniciar, e após isso basta executar a requisição via terminal também: \n
